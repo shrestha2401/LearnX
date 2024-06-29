@@ -1,7 +1,7 @@
 import { Avatar, Box, Button, Container, HStack, Heading, Stack, Text, VStack } from '@chakra-ui/react'
 import React from 'react'
 import { Link } from 'react-router-dom'
-import introvideo from '../../assets/videos/intro.mp4'
+import introvideo from '../../assets/videos/intro.mp4' // add your own customised video , currently i dont have one
 import { RiSecurePaymentFill } from 'react-icons/ri'
 const Founder = () => (
     <Stack direction={['column','row']} spacing = {['4', '16']} padding={'8'}>
